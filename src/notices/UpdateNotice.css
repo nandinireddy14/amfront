@@ -1,0 +1,9 @@
+#background-update-notice{
+  /* background-image: url("..\assets\images\background-book.jpg"); */
+  background-color: rgb(38, 90, 135);
+  /* background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  height: 1200px;
+  opacity: 0.9;
+}

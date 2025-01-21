@@ -1,0 +1,152 @@
+.home-info {
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+.home-text {
+  padding: 2rem;
+  color: white;
+  margin-left: 380px;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-top: -100px;
+  /* background-color: azure; */
+}
+.home-text input {
+  height: 55px;
+  width: 30%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.home-text button {
+  height: 48px;
+  width: 82%;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  background-color: lightgreen;
+  text-align: center !important;
+  margin-left: 0px;
+}
+#homeimg {
+  width: 800px;
+  height: 600px;
+  /* margin-left: 198px; */
+  /* margin-right: 50px; */
+  margin: 50px 2px 20px 60px;
+}
+.iconn {
+ color: red;
+ /* background-color: black; */
+ /* background-color: black; */
+  margin-left: -30px;
+  border-bottom: 0.5px solid black;
+  border-radius: 1px;
+  /* font-size: 70px; */
+}.searchh{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-around; */
+  /* background-color: aquamarine; */
+}
+.allprod{
+  /* background-color: rgb(8, 24, 8); */
+  background-image: url("assets/images/paddy-card.jpg");
+  background-size: cover;
+  padding: 5px;
+  padding-left: 60px;
+  width: 200px;
+  height: 200px;
+  color: black;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  margin-top: 0px;
+  border: 2px solid rgba(240, 229, 30, 0.463);
+}
+
+.allprod:hover {
+  background-color: grey;
+  background-blend-mode: multiply;
+  font-size: 18px;
+  color: white;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.allvehi{
+  margin-left: 10px;
+  background-image: url("assets/images/vehicle-card.jpg");
+  background-size: cover;
+  padding: 5px;
+  padding-left: 60px;
+  width: 200px;
+  height: 200px;
+  color: black;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  margin-top: 0px;
+  border: 2px solid rgba(240, 229, 30, 0.463);
+}
+.allvehi:hover {
+  background-color: grey;
+  background-blend-mode: multiply;
+  font-size: 18px;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.allnoti{
+  margin-left: 10px;
+  background-image: url("assets/images/notice-card.jpg");
+  background-size: cover;
+  padding: 5px;
+  padding-left: 60px;
+  width: 200px;
+  height: 200px;
+  color: black;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  margin-top: 0px;
+  border: 2px solid rgba(240, 229, 30, 0.463);
+}
+.allnoti:hover {
+  background-color: grey;
+  background-blend-mode: multiply;
+  font-size: 18px;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#autocomplete{
+  width: 200px;
+  /* margin-right: 10px; */
+}
+.bi{
+  background-image: url("assets/images/crop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  opacity: 0.9;
+  margin-bottom: 0px;
+}
+.bi:hover{
+  opacity: 1;
+}
+
+.allitems{
+  margin-left: 300px;
+  height: 200px;
+  display: flex;
+}
+
+.inner-text{
+  /* padding-top: 40px; */
+  margin-left: -10px;
+  margin-top: 80px;
+  color: white;
+}

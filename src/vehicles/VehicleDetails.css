@@ -1,0 +1,241 @@
+#vehicle_details_page {
+  margin: 100px 100px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#vehicle_details_page .vehicle_header {
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 4px 4px;
+}
+
+#vehicle_details_page .listing_information {
+  margin-top: 40px;
+}
+
+#vehicle_details ul {
+  display: flex;
+}
+
+#vehicle_details ul li {
+  list-style: none;
+  padding: 20px 20px;
+  width: 100%;
+  border-left: 2px solid white;
+  color: black;
+}
+
+#vehicle_details .allowed,
+#vehicle_details .notallowed {
+  border-radius: 20px;
+  padding: 7px 7px;
+}
+
+#vehicle_details .allowed {
+  background-color: rgba(198, 246, 213, 0.7);
+  border-radius: 20px;
+}
+
+#vehicle_details .notallowed {
+  background-color: rgba(254, 252, 191, 0.7);
+}
+
+#vehicle_details .answer {
+  font-weight: bold;
+  color: black;
+}
+
+/* test */
+/*
+.example_g {
+  font-family: "Poppins";
+  width: 320px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #494949;
+  background: #ffffff;
+  text-transform: uppercase;
+  #494949.: 800 {
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 7px 7px;
+  }
+  letter-spacing: 4px;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  transition: 0.5s ease-in-out;
+}
+*/
+.example_g:before {
+  content: "";
+  background: linear-gradient(45deg,
+      #ff0000,
+      #fff700,
+      #ff7000,
+      #ff00fe,
+      #3ff4eb,
+      #9e00ff,
+      #00beff,
+      #ff00dd,
+      #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.example_g:active {
+  color: #000;
+}
+
+.example_g:active:after {
+  background: transparent;
+}
+
+.example_g:hover {
+  transform: scale(1.05);
+}
+
+.example_g:hover:before {
+  opacity: 1;
+}
+
+.example_g:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  left: 0;
+  top: 0;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+h4 {
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
+.vehicledetails-header {
+  margin-left: 350px;
+}
+
+.details-backgroundv {
+  background-color: #b8dff3ad;
+  border-radius: 1rem;
+  padding-left: 0px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+}
+
+/* .buy-button {
+
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 1px solid;
+  border-radius: 6px;
+  color: #ffffff;
+  background-color: #2ea44f;
+  border-color: #1b1f2326;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color, background-color, border-color;
+}
+
+.buy-button:hover {
+  background-color: #2c974b;
+  border-color: #1b1f2326;
+  transition-duration: 0.1s;
+} */
+.buy-buttonv {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #66c051;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+  transition: background-color 0.2s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.buy-buttonv:hover {
+  background-color: #0062cc;
+  color: #fff;
+  transform: scaleX(1.2);
+}
+
+.buy-button:focus {
+  outline: none;
+}
+
+.edit-buttonv{
+  border-radius: 4px;
+  background-color: #6652b7;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.delete-buttonv{
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.edit-buttonv:hover{
+  width: 165px;
+}
+
+.delete-buttonv:hover{
+  width: 165px;
+}
