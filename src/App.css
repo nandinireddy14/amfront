@@ -5,7 +5,7 @@
   background-color: black;
 }
 
-.example_g {
+/* .example_g {
   font-family: "Poppins";
   width: 320px;
   height: 50px;
@@ -24,9 +24,9 @@
   position: relative;
   z-index: 0;
   transition: 0.5s ease-in-out;
-}
+} */
 
-.example_g:before {
+.example_g::before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -57,7 +57,7 @@
   color: #000;
 }
 
-.example_g:active:after {
+.example_g:active::after {
   background: transparent;
 }
 
@@ -65,11 +65,11 @@
   transform: scale(1.05);
 }
 
-.example_g:hover:before {
+.example_g:hover::before {
   opacity: 1;
 }
 
-.example_g:after {
+.example_g::after {
   z-index: -1;
   content: "";
   position: absolute;
